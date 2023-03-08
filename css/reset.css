@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+html, body { font-size: 10px; }
+body{line-height:1.6;font-family:'Poppins', 'S-CoreDream-3Light', sans-serif;color:#333;}
+ol,ul,li{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+img{vertical-align:top;}
+a{text-decoration:none;color:#333;}
+input,select,textarea,button {vertical-align:top}
+button {border:0 none;background-color:transparent;cursor:pointer}
+.hide,caption{position:absolute;left:-9999px;top:0;width:0;height:0;overflow:hidden;visibility:hidden;font-size:0;line-height:0;}
+#skipNav a {display: block; width: 100%;height: 50px; line-height: 50px; text-align: center; color:#fff; background: #000; position: absolute; left: 0; top: -1000px; }
+#skipNav a:hover,#skipNav a:active,#skipNav a:focus  { top: 0; }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
