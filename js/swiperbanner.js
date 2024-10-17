@@ -1,15 +1,15 @@
-var swiper = new Swiper(".myBanner", {
-    loop: true,
-    autoplay: {
-      delay: 6000,
-    },
+var swiper = new Swiper('.myBanner', {
+  loop: true,
+  autoplay: {
+    delay: 6000,
+  },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 });
 
-var swiper = new Swiper(".myDiscount", {
+var swiper = new Swiper('.myDiscount', {
   slidesPerView: 1,
   spaceBetween: 10,
   centeredSlides: true,
@@ -18,11 +18,10 @@ var swiper = new Swiper(".myDiscount", {
     delay: 4000,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-  
     540: {
       slidesPerView: 2,
       spaceBetween: 25,
@@ -32,10 +31,9 @@ var swiper = new Swiper(".myDiscount", {
       spaceBetween: 25,
     },
   },
-
 });
 
-var swiper = new Swiper(".myStory", {
+var swiper = new Swiper('.myStory', {
   slidesPerView: 1,
   spaceBetween: 10,
   centeredSlides: true,
@@ -44,19 +42,17 @@ var swiper = new Swiper(".myStory", {
     delay: 4000,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-  
     540: {
-      slidesPerView: 2.5,  
+      slidesPerView: 2.5,
       spaceBetween: 20,
     },
     767: {
-      slidesPerView: 3.5, 
+      slidesPerView: 3.5,
       spaceBetween: 30,
     },
   },
-  
 });
