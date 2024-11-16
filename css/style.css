@@ -34,63 +34,55 @@
 }
 #nav .inner {
   padding: 1.3rem 0;
-}
-#nav .gnb {
-  width: 56%;
-  display: flex;
-  margin: auto;
-}
-#nav .gnb li {
-  width: 25%;
   position: relative;
 }
-#nav .gnb li:last-child {
-  margin-right: 0rem;
+#nav .gnb {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#nav .gnb li .sub {
+  width: auto;
+  margin: auto;
+  display: flex;
+  gap: 7rem;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
 }
 #nav .gnb li a {
   font-size: 1.6rem;
+  font-weight: 600;
   display: block;
   text-align: center;
 }
 #nav .gnb li a i {
   display: none;
+  cursor: pointer;
 }
-#nav .gnb li .sub {
-  position: absolute;
-  left: 0;
-  top: 5.5rem;
-  display: flex;
-  width: 55.5556vw;
-  margin: auto;
-  opacity: 0;
-  z-index: 30;
-}
-#nav .gnb li:nth-child(1) .sub {
-  left: -13rem;
-}
-#nav .gnb li:nth-child(2) .sub {
-  left: -20rem;
-}
-#nav .gnb li:nth-child(3) .sub {
-  left: -26rem;
-}
-#nav .gnb li:nth-child(4) .sub {
-  left: -69rem;
-}
-#nav .gnb li .sub li {
-  width: 25%;
-}
+
 #nav .gnb li .sub li a {
-  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+#nav .gnb li .sub li a:hover {
+  font-weight: 600;
 }
 #header .all-menu {
   position: absolute;
   left: 0;
   top: 4rem;
   display: none;
+  cursor: pointer;
 }
 #nav .close {
   display: none;
+  cursor: pointer;
 }
 #nav h2 {
   display: none;

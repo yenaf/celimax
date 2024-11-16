@@ -6,6 +6,10 @@
 
 <p align="center">
 🔗<a href="https://www.celimax.co.kr">Original Link</a>&nbsp;
+🔗<a href="https://yenaf.github.io/celimax/">Renewal Link</a>&nbsp;
+</p>
+
+<p align="center">
 🔗<a href="https://www.figma.com/design/f5AJVXPKCfiZyryXh9x7TZ/%EC%85%80%EB%A6%AC%EB%A7%A5%EC%8A%A4?node-id=101-423&t=1spP6GKl094OL5RU-1">Figma</a>&nbsp;
 🔗<a href="https://tarry-llama-072.notion.site/celimax-Renewal-121b4ea6ff10805bbe2af9b57159631f">Notion</a>
 </p>
@@ -25,7 +29,7 @@
 ![셀리맥스 디바이스 기기별 화면](https://github.com/user-attachments/assets/ab2e4e35-d1e2-41b0-bb66-19cb024b0459)
 
 <div align="center">
-기존의 풀페이지 형식의 제품 소개를 중심으로 한 셀리맥스 메인페이지를 다양한 컨텐츠 레이아웃구성으로 사용자 편의성과 브랜드 이미지를 강화하고, 다양한 기기에서 사용가능 한 반응형 페이지로 리뉴얼 했습니다.
+기존의 풀페이지 형식의 제품 소개를 중심으로 한 셀리맥스 메인페이지를 다양한 컨텐츠 레이아웃구성으로 사용자 편의성과 브랜드 이미지를 강화하고, 다양한 기기에서 사용가능한 반응형 페이지로 리뉴얼 했습니다.
 </div>
 
 ## 💻 웹페이지 시연
